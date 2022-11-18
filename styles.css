@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-content-one {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 100px 20px;
+  background: #1f2937;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 16px;
+}
+
+.header a,
+.header-two-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-two-left a,
+.action-box a {
+  color: #e5e7eb;
+  background: #3882f6;
+  padding: 5px 28px;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.header-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.header-two-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: 10px;
+  max-width: 425px;
+  color: white;
+}
+
+.header-two-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header-two-right img {
+  width: 575px;
+  max-width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.main-content-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.main-content-two h2 {
+  margin: 48px 0;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.boxes-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  column-gap: 48px;
+  row-gap: 24px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 190px;
+  font-size: 20px;
+}
+
+.boxes {
+  border: 5px solid #3882f6;
+  width: 190px;
+  height: 190px;
+  border-radius: 12px;
+}
+
+.box1 {
+  background-image: url(images/solar-tiger.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box2 {
+  background-image: url(images/jenn.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box3 {
+  background-image: url(images/bun.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightblue;
+}
+.box4 {
+  background-image: url(images/wolfie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-content-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 210px 0;
+  background: #e5e7eb;
+  height: 450px;
+}
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  row-gap: 16px;
+  max-width: 910px;
+  font-size: 21px;
+}
+.quote-container p {
+  font-size: 1.8em;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote-container strong {
+  font-size: 1.5em;
+
+  align-self: flex-end;
+}
+.main-content-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  height: 400px;
+}
+.action-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  font-size: 1.25em;
+  padding: 16px 32px;
+  width: 1000px;
+  background: #3882f6;
+  border-radius: 6px;
+}
+.action-box a {
+  border: 1px solid #e5e7eb;
+}
+
+.left-action {
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: white;
+  background: #1f2937;
+}
+@media screen and (max-width: 1379px) {
+  .header-two-right {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .quote-container {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-content-one {
+    padding: 20px 30px 20px;
+  }
+  .quote-container {
+    font-size: 14px;
+  }
+}
