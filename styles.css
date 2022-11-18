@@ -156,9 +156,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 210px 0;
+  padding: 40px 0;
   background: #e5e7eb;
-  height: 450px;
 }
 .quote-container {
   display: flex;
